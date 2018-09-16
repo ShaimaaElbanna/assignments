@@ -1,0 +1,4 @@
+when you creat a website 
+1. creatfolder for pages
+2. creat folder for images
+3. the front page should name index
