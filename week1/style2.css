@@ -90,7 +90,11 @@
         left: 50%;
     }
 
-
+.pagetitle {
+text-align: center;
+background-color: #dcdcdc;
+border: 10px !important;
+}
 
 
 
