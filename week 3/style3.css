@@ -1,6 +1,6 @@
 @media (max-width: 500px){
   body {
-    background-color: red;}
+    background-color: gainsboro;}
 a:-webkit-any-link {
   color: black;
   cursor: pointer;
@@ -13,6 +13,7 @@ body {
   margin: 1rem 0rem 2rem 0rem;
   height: 100%;
   min-width: 100ch;
+  max-width: 100%;
   min-height: 100vh;
 
 }
