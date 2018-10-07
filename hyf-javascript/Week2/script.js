@@ -1,3 +1,4 @@
+alert("That's not a valid grade")
 console.log ("Halo, dunia!");
 console.log ("Ciao, mondo!");
 console.log ("Hola, mundo!");
