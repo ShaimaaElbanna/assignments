@@ -1,0 +1,11 @@
+let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
+favoriteAnimals.push("turtle");
+console.log(favoriteAnimals);
+favoriteAnimals.shift();
+favoriteAnimals.unshift("meerkat");
+favoriteAnimals.unshift("blowfish");
+console.log("i think the new value of the Array will be : 'blowfish', 'meerkat', 'capricorn', 'giraffe', 'turtle' ");
+console.log(favoriteAnimals);
+console.log("The array has a length of: " + favoriteAnimals.length);
+favoriteAnimals.pop();
+console.log(favoriteAnimals);
