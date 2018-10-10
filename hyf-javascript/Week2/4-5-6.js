@@ -1,5 +1,4 @@
-//4 Create a function named vehicleType that receives a color, and a code, 1 for car, 
-//2 for motorbike. And prints 'a blue motorbike' 
+//4 Create a function named vehicleType that receives a color, and a code, 1 for car, 2 for motorbike. And prints 'a blue motorbike' 
 //for example when called as vehicleType("blue", 2)
   
 function vehicleType(color ,code){
@@ -22,7 +21,7 @@ vehicleType("blue", 5)
 
 (3 === 3) ?  console.log("yes") :  console.log("no");
 
-//6Create a function called vehicle, like before, but takes another parameter called age,
+//6 - Create a function called vehicle, like before, but takes another parameter called age,
 // so that vehicle("blue", 1, 5) prints 'a blue used car'
 
 function vehicle(color ,code, age){
