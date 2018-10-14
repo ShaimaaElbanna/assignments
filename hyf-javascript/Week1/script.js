@@ -110,14 +110,14 @@ let myString = "this is a test";
 console.log(myString);
 
 //7.2 Find a way to get the length of myString.
+const theString = myString.length;
 //7.3 console.log the length of myString.
-console.log(myString.length);
+console.log(theString);
 
 
 
 //8. Write a program that checks the types of two variables and
  //prints out SAME TYPE if they are the same type.
-
 
  //8.1 First declare at least four variables and assign them different data types.
  var s =5; //number
@@ -127,7 +127,6 @@ console.log(myString.length);
 
 
 // 8.2 For each variable write a console.log statement that logs the value
-
  console.log('The value of my variable s is: ' + s);
  console.log('The value of my variable h is: ' + h);
  console.log('The value of my variable a is: ' + a);
@@ -148,8 +147,10 @@ console.log(myString.length);
 
 
  //8.5 Now compare the types of your different variables with one another.
+ //8.6 Make sure to also show a message when the variables you are comparing are not the same type.
+
  function sametype(a,s){
-    if (typeof (a) === typeof (s)){
+    if (typeof (a) == typeof (s)){
        console.log("Same Type");}
     else {
         console.log("the variables are diffrent Type");   
@@ -182,7 +183,7 @@ console.log(x);
 //Numbers and strings? Make an example that illustrates your answer.
 
 var x = 10;
-var array = ["red" , 2 , x];
+var array = ["red" , 2 , x , true];
 
 for(i=0; i<array.length; i++){
 console.log(typeof(array[i]));
