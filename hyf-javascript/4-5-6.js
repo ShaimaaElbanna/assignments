@@ -20,14 +20,15 @@ vehicleType("blue", 5)
 //but with just as a single line with console.log(...);?
 
 (3 === 3) ?  console.log("yes") :  console.log("no");
+ console.log(3 === 3 ? "yes" :"no");
+
 
 //6 - Create a function called vehicle, like before, but takes another parameter called age,
 // so that vehicle("blue", 1, 5) prints 'a blue used car'
 
 function vehicle(color ,code, age){
 
-    if(code == 1){
-        (age > 0)
+    if(code == 1 && age > 0){
         console.log( "a " + color +  " used " + "car.");
     }
     else if(code == 2){

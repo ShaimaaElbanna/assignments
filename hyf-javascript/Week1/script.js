@@ -165,6 +165,7 @@ console.log(theString);
 //9.1 Add at least 3 console.log statements in 
 //which you show that you understand what % does.
 
+console.log( x + " / "  + 3 + "=" + (x % 3));
 var x = 7; 
 x = 7%3;
 console.log(x);
@@ -200,3 +201,33 @@ else {
 }    
 console.log(6/0 === 10/0);
 
+
+const myobj = {
+    car: "red",
+    bike: "blue",
+}
+
+const myobj = {
+    car: "red2",
+    bike: "blue2",
+}
+
+
+const myobj2 = ["red","blue",{
+    car: "red",
+    bike: "blue",
+}
+]
+
+let car = {} 
+let cars = []
+
+
+for(let i = 0; i< 10; i++){
+    cars.push({
+        car: "red",
+        bike: "blue"
+})
+}
+
+console.log(cars);
