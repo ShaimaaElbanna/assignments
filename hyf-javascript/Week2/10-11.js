@@ -1,5 +1,4 @@
-//10 - Use the list of vehicles to write an advertisement. 
-//So that it prints something like:
+//10 - Use the list of vehicles to write an advertisement. So that it prints something like:
 // "Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes."
 //. (Hint: use a for loop.)
 //Hint, the output should be correct English with all the punctuation in place
@@ -23,5 +22,5 @@ function advertisement(){
 console.log(advertisement());
 
 //11
-vehiclesList.push("bordes");
+vehiclesList.push("bord");
 console.log(advertisement());
