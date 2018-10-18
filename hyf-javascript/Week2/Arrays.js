@@ -1,4 +1,6 @@
+//2 Consider the following array:
 let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
+
 //2.1 Add a statement that adds Mauro's favorite animal 'turtle' to the existing array.
 favoriteAnimals.push("turtle");
 

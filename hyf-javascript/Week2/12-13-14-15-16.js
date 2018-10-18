@@ -1,4 +1,4 @@
-//12
+//12 Create an empty object.
 const myObj;
 
 //13

@@ -9,7 +9,7 @@ function vehicleType(color ,code){
        console.log( color + " motorbike")
     }
     else{
-        console.log("Invalid code\n enter 1 or 2 for result")
+        console.log("Invalid code\nenter 1 or 2 for result")
     }
 }
 vehicleType("red", 2)
